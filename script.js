@@ -17,7 +17,7 @@ function newTodo() {
     var checkb = document.createElement("input");
     var delbtn = document.createElement("button");
     delbtn.classList.add(classNames.TODO_DELETE);
-    delbtn.textContent = "Delete X";
+    delbtn.textContent = "Delete ";
     checkb.setAttribute("type", "checkbox");
     checkb.setAttribute("onClick", "reCountfn()");
     delbtn.setAttribute("onClick", "deleteTodo(this)");
